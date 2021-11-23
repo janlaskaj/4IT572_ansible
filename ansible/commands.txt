@@ -1,0 +1,12 @@
+sudo yum install git
+
+pip3 install ansible boto boto3
+
+cd do adresáře ansible
+ansible-vault create group_vars/all/aws.yml
+ansible-vault edit group_vars/all/aws.yml
+
+
+access_key: ASIA3OTZS6GXUL23YIFM
+secret_key: YSo4Ey6Wl4hMPhqtnLzgeGTQZBnI9WJao/Z+av9m
+aws_session_token=FwoGZXIvYXdzEJP//////////wEaDJlTNZkVjBUy5B+X3iK3AfiC5E6zlVRxbkq/LiZjl/zBN1VPj+R1HPLq8uN2ct5diIqvDYaSBjnq7y4XnFI13VzfrpoRZxnVP+2nxej2CDvZTCyjQlXPhF5ws2iIX2N39skykWF88GjNeRznNBb0uYDQMJ4RvjIZeqo9MaEKNb6QccsEm/AL0K0vcMLJYyGjpgOzPkKETsGmCWxnrWA4rXc/xyWmBqzktPmxuyc2x7inMcm3QQlab7voqvXrxnf90U3ofP+3+iiwxvSMBjIt72acL3kZyL68Tnqp/a0NwDnpHOXNEC27hG42AT/3SW7dF4Foy7uHGDbedgXE
