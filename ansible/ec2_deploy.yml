@@ -8,7 +8,7 @@
         instance_type: t2.micro
         image: ami-04902260ca3d33422
         region: us-east-1
-        keyName: devops
+        key_name: devops
         vpc_subnet_id: subnet-07bb76026ba4a6374
         assign_public_ip: yes
         count: 1
