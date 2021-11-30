@@ -1,10 +1,11 @@
 sudo yum install git
 
-pip3 install ansible boto boto3
+pip3 install ansible boto boto3 NEBO pip3 install ansible-core=2.13 boto boto3
 
 cd do adresáře ansible
 ansible-vault create group_vars/all/aws.yml
 ansible-vault edit group_vars/all/aws.yml
+
 
 
 access_key: ASIA3OTZS6GXUL23YIFM
