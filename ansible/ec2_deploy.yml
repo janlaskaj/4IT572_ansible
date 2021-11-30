@@ -14,9 +14,12 @@
         count: 1
         group: eshop
         wait: true
-        aws_access_key: "{{access_key}}"
-        aws_secret_key: "{{secret_key}}"
-        security_token: "{{session_token}}"
+        # aws_access_key: "{{access_key}}"
+        # aws_secret_key: "{{secret_key}}"
+        # security_token: "{{session_token}}"
+        aws_access_key: "ASIA3OTZS6GXUORCCHEW"
+        aws_secret_key: "Ul2mTDDMjS4c5bz19rI+Ha0p/tD99YY2mpb1UZxo"
+        security_token: "FwoGZXIvYXdzEDoaDOsEmdMgVUsYRNGFFiK3AetrMnme5i7PL5ZZTBPoi4bDzgCcf7wRFwchtpcaxiX+qZYmeQUYXjrxA2Sxdi+8XOlJgJim2l07Vao5gti9AA6iryr2BJgscqXH/DaciyORVE808wfem3VZYgl+ieiw92J9VbyZFXtXAJkAoKTil361q+pzOwbOiTXFIgz1Z1NNGY/k91GWIgR5y9+DJvIN62+ZdVx4CKxErjODSQkrnOABWIKQhVGbFRJ4p1IdmEk4tjimcWMwJSi5sJmNBjItbcN9QGiBGGgsTY4e/u0uFe9qE39FgdvxvDDwYzsLEdF4upUDetfWnCn+f860"
       register: ec2
 
     - name: Add new instance to host group
