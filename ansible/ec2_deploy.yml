@@ -41,7 +41,7 @@
 
   tasks:
     - name: Add Centos extras
-      shell: yum-congig-manager --enable extras
+      shell: yum-config-manager --enable extras
       become: yes
     - name: Enable docker package
       shell: amazon-linux-extras enable docker
