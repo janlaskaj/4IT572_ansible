@@ -16,9 +16,6 @@
         aws_access_key: "{{access_key}}"
         aws_secret_key: "{{secret_key}}"
         security_token: "{{session_token}}"
-        # aws_access_key: "ASIA3OTZS6GX3GENTRNX"
-        # aws_secret_key: "McC+kLv6i67ZNv+5GbCqUcUinFj3qk1GHhzcRIa7"
-        # security_token: "FwoGZXIvYXdzEEwaDDpqY93KMJ4s9kxoWSK3AaZjMshw1ip/dH46WgcnqcU7g9f55u2DZ4veV9bxv0a4Gym+mTFKwBKWcPigiF0FCY99JfCk8PpVcRA4/4UYw9V0Aw/xzeHN+MQNoimRrva5m434VvTvjh8qABuHWgd9XoyDA14llaI85Nx6Uip3ri00NDSL3zw8CfC14HNrd+Y2riKJBIlm6axetnaHBl919+NZZs08syc56tpT1GrBFw8s7sqXaZHFPBn/I4kfByWFuYvkuJyQeijgp52NBjItUUh1jLzE3utkLs/g+f0wBEuLsswNK1MMeGCrnwRZTaQ/c68KhjTkaw9sP1oY"
       register: ec2
 
     - name: Add new instance to host group
